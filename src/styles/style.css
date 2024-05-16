@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+header h1 {
+    font-size: 4rem;
+}
+
+header h2 {
+    font-size: 2rem;
+}
+header h3 {
+    background: #0004ff;
+    background: -webkit-linear-gradient(91deg, #0004ff 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(91deg, #0004ff 0%, rgba(0, 0, 0, 0) 100%);
+    padding: 1.5rem;
+    border-radius: 40px 0 0 40px;
+    font-size: 1.5rem;
+}
