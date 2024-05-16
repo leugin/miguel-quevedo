@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background: whitesmoke;
+}
+body > header , body > section {
+    display: flex;
+}
+
+body > header > *, body > section > *{
+    max-width: 1024px;
+    margin: auto;
+
+}
+header {
+    min-height: 800px;
+}
 header h1 {
     font-size: 4rem;
 }
@@ -16,4 +31,31 @@ header h3 {
     padding: 1.5rem;
     border-radius: 40px 0 0 40px;
     font-size: 1.5rem;
+}
+
+#technology h3{
+  font-size: 3rem;
+}
+#technology  > div{
+
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#me{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(10,10,125,1) 59%);
+}
+
+#me h3 {
+    font-size: 3rem;
+}
+#me img.hey{
+    border-radius: 30%;
+    transform: rotate3d(1, 1, 1, 15deg);
+}
+
+#me p {
+    font-size: 1.3rem;
 }

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -8,8 +8,8 @@
   <link rel="stylesheet" href="src/styles/style.css" />
 </head>
 <body>
-<header>
-  <div class="grid md:grid-cols-2 gap-4 bg-black p-6 text-white">
+<header class="bg-black">
+  <div class="grid md:grid-cols-2 gap-4  py-6 text-white">
     <div>
       <img src="/miguel-quevedo-pencil.png" alt="miguel quevedo">
     </div>
@@ -27,8 +27,44 @@
       <h3 class="mt-auto mb-10  ">Mi Portafolio</h3>
     </div>
   </div>
-
 </header>
+<section id="technology" class="bg-gray-200">
+  <div class=" pt-6 pl-10 pr-10">
+    <h3 class=" text-blue-950 ">Tecnologìas que mas uso</h3>
+
+    <div class="grid md:grid-cols-2">
+      <div  >
+        <img src="/tecnologias.png" alt="nodejs angular aws vue laravel">
+      </div>
+      <div  >
+        <img src="/miguel-quevedo-yes-dear.png" alt="software">
+      </div>
+    </div>
+  </div>
+</section>
+<section id="me" class="from-blue-950">
+  <div class=" pt-6 pl-10 pr-10 text-white">
+    <h3 class=" text-white">Un Poco sobre mi?</h3>
+
+    <div class="grid md:grid-cols-2">
+
+      <div  >
+        <img src="/miguel-quevedo-hey.png" alt="nodejs angular aws vue laravel" class="hey">
+      </div>
+      <div class="flex flex-col py-6" >
+        <p class="my-auto">
+          «Me encanta mi trabajo por eso siempre estoy buscando aprender cosas nuevas».
+        </p>
+        <p class="my-auto md:ml-11">
+          «Siempre busco mantener un balence entre calidad vs tiempo, ya que el tiempo es muy importante para mi».
+        </p>
+        <p class="my-auto">
+          «Disfruto mucho trabajando en equipo, sea como lider o solo como participante, siempre es interesante saber varios puntos de vista».
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 <script type="module" src="/src/scripts/main.js"></script>
 </body>
 </html>
