@@ -59,3 +59,16 @@ header h3 {
 #me p {
     font-size: 1.3rem;
 }
+
+#work h3 {
+    font-size: 3rem;
+}
+
+#work .card .card-image{
+    height: 200px;
+    display: flex;
+}
+#work .card .card-image img{
+    margin: auto;
+    height: 130px;
+}
