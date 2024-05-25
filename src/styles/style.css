@@ -72,3 +72,10 @@ header h3 {
     margin: auto;
     height: 130px;
 }
+#contact h3 {
+    font-size: 3rem;
+}
+
+#contact .social img {
+    height: 42px;
+}
